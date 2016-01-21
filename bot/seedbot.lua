@@ -221,7 +221,7 @@ function create_config( )
     "all",
     "leave_ban"
     },
-    sudo_users = {154464828}(our_id)},--Sudo users
+    sudo_users = {65671655}(our_id)},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
     about_text = [[Teleseed v2 - Open Source
@@ -242,8 +242,7 @@ topkecleon
 Vamptacus
 
 Our channels
-@teleseedch [English]
-@iranseed [persian]
+@TeleCrystaL[ch] [persian][English]
 ]],
     help_text_realm = [[
 Realm Commands:
