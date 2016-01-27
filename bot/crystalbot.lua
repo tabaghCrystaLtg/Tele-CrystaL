@@ -256,16 +256,16 @@ Create a realm
 !setname [Name]
 Set realm name
 
-!setabout [GroupID] [Text]
+!setabout [Text]
 Set a group's about text
 
-!setrules [GroupID] [Text]
+!setrules [Text]
 Set a group's rules
 
-!lock [GroupID] [setting]
+!lock [setting]
 Lock a group's setting
 
-!unlock [GroupID] [setting]
+!unlock [setting]
 Unock a group's setting
 
 !wholist
@@ -277,10 +277,10 @@ Get a file of members in group/realm
 !type
 Get group type
 
-!kill chat [GroupID]
+!deletegp
 Kick all memebers and delete group
 
-!kill realm [RealmID]
+!deleterealm
 Kick all members and delete realm
 
 !addadmin [id|username]
@@ -324,10 +324,10 @@ Commands list :
 !kick [username|id]
 You can also do it by reply
 
-!ban [ username|id]
+!ban [ username|id|reply]
 You can also do it by reply
 
-!unban [id]
+!unban [ username|id|reply]
 You can also do it by reply
 
 !who
@@ -404,7 +404,7 @@ Returns text of [value]
 !clean [modlist|rules|about]
 Will clear [modlist|rules|about] and set it to nil
 
-!res [username]
+!res [username|id]
 returns user id
 "!res @username"
 
